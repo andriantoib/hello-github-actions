@@ -1,4 +1,4 @@
-FROM ubuntu:20.04-slim
+FROM ubuntu:latest-slim
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
